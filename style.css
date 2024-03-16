@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto";
+}
+
+#container {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  width: 500px;
+  height: 500px;
+  background-color: #ADD8E6	;
+}
+
+.add_item_menu_text {
+  font-size: large;
+  font-weight: 500;
+}
+
+#add_item_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#item_list {
+  width: 500px;
+  height: 400ps;
+  background-color: #6495ED;
+}
